@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    background-color: white;
+}
+.header{
+    box-sizing: border-box;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__ul{
+    display:inline-block;
+}
+.menu__li{
+    float:right;
+    list-style: none;
+    margin-left: 46px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.menu__link:hover{
+    color: burlywood;
+}
+
+.menu__link{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.menu__logo{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.home{
+    background-image: url("https://images.unsplash.com/photo-1494415859740-21e878dd929d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-size: 100%;
+    width: 100%;
+    height: 622px;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.line{
+    border-bottom: solid 10px #817070;
+    width: 80px;
+}
+
+/* Story block */
+
+.story_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    margin-right: 60px;
+}
+.picture{
+    width: 500px;
+    height: 300px;
+
+    margin-right: 40px;
+}
+
+.story_title p{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.story_text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/* CARD */
+.blog{
+    background-color: #EFEFEF;
+    padding-top: 60px;
+    padding-bottom: 65px;
+}
+.blog_title{
+    text-align: center;
+    /*margin-top: 60px;*/
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 102px;
+    margin-right: 102px;
+}
+.card{
+    width: 265px;
+    height: 374px;
+    background-color: white;
+
+    padding: 20px 20px 46px 20px;
+}
+.card__image img{
+    width: 265px;
+    height: 166px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card__image{
+
+}
+.card_title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    margin-bottom: 24px;
+}
+.card_text p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+
+    margin-top: 24px;
+}
+
+/* Subscribe */
+
+.subscribe{
+    background: #817070;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.subscribe_title{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+
+    margin-bottom: 28px;
+}
+
+.email_input input{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #817070;
+    border: 3px solid #FFFFFF;
+    width: 300px;
+    height: 55px;
+
+    margin-bottom: 28px;
+}
+
+.submit_button button{
+    text-align: center;
+    text-transform: uppercase;
+    color: #817070;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    width: 129px;
+    height: 55px;
+}
+
+button:hover{
+    background-color: #817070;
+    color: white;
+}
+
+/* footer */
+.copyright{
+    margin-top: 29px;
+    padding-bottom: 14px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
